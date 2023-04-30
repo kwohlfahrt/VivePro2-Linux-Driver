@@ -86,19 +86,15 @@
         kernelPatches = [
           {
             name = "drm-edid-non-desktop";
-            patch = ./kernel-patches/0001-drm-edid-non-desktop.patch;
-          }
-          {
-            name = "drm-edid-type-7-timings";
-            patch = ./kernel-patches/0002-drm-edid-type-7-timings.patch;
+            patch = ./kernel-patches/0001-drm-edid-Add-Vive-Cosmos-Vive-Pro-2-to-non-desktop-l.patch;
           }
           {
             name = "drm-edid-dsc-bpp-parse";
-            patch = ./kernel-patches/0003-drm-edid-dsc-bpp-parse.patch;
+            patch = ./kernel-patches/0002-drm-edid-parse-DRM-VESA-dsc-bpp-target.patch;
           }
           {
             name = "drm-amd-dsc-bpp-apply";
-            patch = ./kernel-patches/0004-drm-amd-dsc-bpp-apply.patch;
+            patch = ./kernel-patches/0003-drm-amd-use-fixed-dsc-bits-per-pixel-from-edid.patch;
           }
         ];
         packages =

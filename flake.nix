@@ -89,10 +89,6 @@
             patch = ./kernel-patches/0001-drm-edid-non-desktop.patch;
           }
           {
-            name = "drm-edid-type-7-timings";
-            patch = ./kernel-patches/0002-drm-edid-type-7-timings.patch;
-          }
-          {
             name = "drm-edid-dsc-bpp-parse";
             patch = ./kernel-patches/0003-drm-edid-dsc-bpp-parse.patch;
           }
